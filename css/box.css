@@ -1,0 +1,58 @@
+.box-cont1{
+  position:absolute;
+  left:30%;
+  top:50%;
+  transform: translate(-50%, -50%)
+}
+
+.box-cont2{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%)
+}
+
+.box-cont3{
+  position:absolute;
+  left:70%;
+  top:50%;
+  transform: translate(-50%, -50%)
+}
+
+#esterno{
+ stroke-dashoffset:200; 
+ stroke-dasharray:200;
+ transform: rotate(-105deg) translate(-673px,-237px);
+ visibility: hidden;
+ transition: all 2.0s;
+ transition-delay: 1.5s;
+}
+
+#esterno.over{
+  stroke-dashoffset:0;
+  visibility: visible;
+  transition: 2.0s;
+}
+
+#bordo{
+  stroke-dashoffset: 879;
+  stroke-dasharray: 878;
+  visibility: hidden;
+  transition: 2.0s;
+}
+
+#bordo.over{
+  stroke-dashoffset: 0;
+  transition: 2.0s;
+  visibility: visible;
+  transition-delay: 0.7s;
+}
+
+#content-txt{
+  opacity: 0;
+  transition: 2.0s;
+}
+#content-txt.over{
+  opacity: 100;
+  transition: 3.0s;
+}
