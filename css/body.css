@@ -38,6 +38,17 @@ html, body, .page {
         margin: 0px;
         overflow: hidden;}
 
+#p4 { font-family: Helvetica sans-serif;
+      padding: 0;
+      margin: 0;
+      background-color: #222;
+      overflow: hidden;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -o-user-select: none;
+      -ms-user-select: none;
+      user-select: none;}
+
 #p2, #p3, #p4 {
   left: 200%;
 }
